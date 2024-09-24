@@ -23,18 +23,18 @@ jobs:
 
       # Navigate to the correct directory where the project files are located
       - name: Change directory to project folder
-        run: cd 'Sprint 1/version1'
+        run: cd 'Sprint_1/version1'
 
       # Install dependencies (e.g., using npm or yarn)
       - name: Install dependencies
         run: |
-          cd 'Sprint 1/version1'  # Make sure to navigate into the directory
+          cd 'Sprint_1/version1'  # Make sure to navigate into the directory
           npm install
 
       # Run the build command
       - name: Build the project
         run: |
-          cd 'Sprint 1/version1'
+          cd 'Sprint_1/version1'
           npm run build  
 
       

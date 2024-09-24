@@ -1,0 +1,49 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px; /* Padding around the container */
+}
+
+h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 24px; /* Increased font size */
+  text-align: center;
+}
+
+form {
+  background-color: white; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 30px; /* Increased padding inside the form */
+  width: 400px; /* Increased fixed width for the form */
+}
+
+input, select {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Increased padding inside inputs */
+  margin-bottom: 20px; /* Increased space below each input */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Increased font size for inputs */
+  justify-content: center;
+}
+
+button {
+  width: 100%; /* Full width button */
+  max-width: 250px; /* Set a maximum width */
+  padding: 15px; /* Increased padding inside button */
+  background-color: #007bff; /* Primary color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 18px; /* Increased font size for button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
