@@ -4,15 +4,20 @@ import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { FaUsers } from 'react-icons/fa';
 import NavBar from '../../components/NavBar';
+import { useSession } from 'next-auth/react';  // Import useSession
 
 const TeamPage = () => {
     const router = useRouter();
     const [baseRatingsTable, setBaseRatingsTable] = useState([]);
     const [summaryTable, setSummaryTable] = useState([]);
     const { teamname: teamName } = useParams();
+    const { data: session } = useSession();  // Get session data
+
+    // Check if the user is an instructor
+    const isInstructor = session?.user?.role === 'instructor';
 
     useEffect(() => {
-        if (!teamName) return;
+        if (!teamName || !isInstructor) return;  // Only fetch ratings if the user is an instructor
 
         const fetchRatings = async () => {
             try {
@@ -36,7 +41,7 @@ const TeamPage = () => {
         };
 
         fetchRatings();
-    }, [teamName]);
+    }, [teamName, isInstructor]);  // Depend on isInstructor
 
     const handleStudentClick = (studentId) => {
         router.push(`/team/${teamName}/${studentId}`);
@@ -84,6 +89,20 @@ const TeamPage = () => {
 
         setSummaryTable(summaryArray);
     };
+
+    // Show a message if the user is not an instructor
+    if (!isInstructor) {
+        return (
+            <div className="min-h-screen bg-gray-50">
+                <NavBar />
+                <main className="container mx-auto py-10 px-4 sm:px-6 lg:px-8">
+                    <div className="bg-white shadow rounded-lg p-6 mb-10">
+                        <p className="text-gray-600 text-center">You do not have permission to view the ratings.</p>
+                    </div>
+                </main>
+            </div>
+        );
+    }
 
     return (
         <div className="min-h-screen bg-gray-50">
