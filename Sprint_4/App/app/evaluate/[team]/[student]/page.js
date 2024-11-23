@@ -44,20 +44,6 @@ const AnimatedSphere = () => {
   )
 }
 
-// AnimatedBackground Component
-const AnimatedBackground = () => {
-  return (
-    <div className="fixed inset-0 z-0">
-      <Canvas>
-        <ambientLight intensity={0.8} />
-        <pointLight position={[10, 10, 10]} intensity={0.5} />
-        <AnimatedSphere />
-      </Canvas>
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-50/70 via-blue-50/70 to-indigo-50/70" />
-    </div>
-  )
-}
-
 // NavBar Component
 const NavBar = ({ role }) => {
   return (
