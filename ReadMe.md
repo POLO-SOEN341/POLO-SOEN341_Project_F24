@@ -16,7 +16,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 **William White:** 40135771  (Frontend)
 **William White:** 40135771  (Frontend) 
 
-**Samy Belmihoub:** 40251504 (Frontend)
+**Samy Belmihoub:** 40251504 : TheWaterisLife (Frontend)
 **Samy Belmihoub:** 40251504 (Frontend) 
 
 **Youssef Youssef:** 40285384  (Backend) Scrummaster assistant
