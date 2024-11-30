@@ -10,10 +10,10 @@ jest.mock('next/router', () => ({
   useRouter: jest.fn(),
 }));
 
-// Mocking Next.js Link to avoid nested <a> tags issue
+
 jest.mock('next/link', () => {
   return ({ children }) => {
-    return children; // Directly render children without wrapping in <a>
+    return children; 
   };
 });
 
@@ -30,7 +30,6 @@ describe('Team Component', () => {
 
     await userEvent.click(studentLink);
 
-    // Since we're just testing rendering, we won't check for actual navigation
-    // This avoids dependency on mock push or router behavior
+   
   });
 });
