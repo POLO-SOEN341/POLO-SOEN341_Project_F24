@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { useSession } from "next-auth/react/index.js";
-import NavBar from '../components/NavBar.js'; // Assuming NavBar is in the same folder
+import NavBar from '../components/NavBar.js';
 
 
 jest.mock("next-auth/react", () => ({
