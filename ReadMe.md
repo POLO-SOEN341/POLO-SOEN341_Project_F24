@@ -9,7 +9,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 # Members:
 
-**Alvin Biju:** 40278182 (Backend) Secretary
+**Alvin Biju:** 40278182 : Alvin-11   (Backend) Secretary
 
 **Othmane Sbi:** 40249134  (Backend) Scrummaster
 
