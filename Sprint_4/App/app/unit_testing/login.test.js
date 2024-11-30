@@ -1,11 +1,10 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Login from '../login/page.js'; // Adjust the import path accordingly
+import Login from '../login/page.js';
 import { useRouter } from 'next/navigation.js';
 import { signIn } from 'next-auth/react/index.js';
 
-// Mock the router and signIn function
 jest.mock('next/navigation', () => ({
   useRouter: jest.fn(),
 }));
@@ -72,7 +71,7 @@ describe('Login Component', () => {
     fireEvent.change(passwordInput, { target: { value: 'correctpassword' } });
     fireEvent.click(loginButton);
 
-    await screen.findByRole('button', { name: /Login/i }); // wait for the sign-in action to complete
+    await screen.findByRole('button', { name: /Login/i });
 
     expect(mockPush).toHaveBeenCalledWith('/dashboard');
     expect(mockPush).toHaveBeenCalledTimes(1);
