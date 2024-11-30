@@ -4,7 +4,7 @@ import Signup from '../signup/page';
 import '@testing-library/jest-dom';
 
 
-// Mocking the fetch API for availability check and signup submission
+
 global.fetch = jest.fn(() =>
   Promise.resolve({
     json: () => Promise.resolve({ usernameAvailable: true, idAvailable: true, message: 'User created successfully!' }),
@@ -34,12 +34,12 @@ describe('Signup Page', () => {
     fireEvent.change(screen.getByLabelText(/student id/i), { target: { value: '12345' } });
 
 
-    // Check for "Checking availability..." messages using findAllByText
+  
     const checkingMessages = await screen.findAllByText(/checking availability/i);
     expect(checkingMessages.length).toBe(2);
 
 
-    // Wait for "username is available" and "id is available" messages
+ 
     await waitFor(() => expect(screen.getByText(/username is available/i)).toBeInTheDocument());
     await waitFor(() => expect(screen.getByText(/id is available/i)).toBeInTheDocument());
   });
