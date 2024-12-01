@@ -9,7 +9,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 # Members:
 
-**Alvin Biju:** 40278182 : Alvin-11   (FullStack) Secretary
+**Alvin Biju:** 40278182 : Alvin-11   (FullStack) Random Guy
 
 **Othmane Sbi :** 40249134 sbiothmane (FullStack) main Scrummaster
 
@@ -19,7 +19,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 **Samy Belmihoub:** 40251504 : TheWaterisLife (FullStack)
 
 
-**Youssef Youssef:** 40285384  (FullStack) Scrummaster assistant
+**Youssef Youssef:** 40285384 : Youssef8811  (FullStack) Scrummaster assistant
 
 
 **John Kaspar:** 40285931 Ukcl  (FullStack) Sprint 3 & Sprint 4 Secretary
