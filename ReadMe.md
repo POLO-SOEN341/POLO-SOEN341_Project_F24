@@ -16,7 +16,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 **William White:** 40135771  (FullStack) WilliamWhite1125 Sprint 3 & Sprint 4 Scrummaster
 
 
-**Samy Belmihoub:** 40251504 : TheWaterisLife (FullStack)
+**Samy Belmihoub:** 40251504 : TheWaterisLife (FullStack) Secretary
 
 
 **Youssef Youssef:** 40285384 : Youssef8811  (FullStack) Scrummaster assistant
