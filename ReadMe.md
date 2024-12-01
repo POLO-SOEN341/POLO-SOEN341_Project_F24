@@ -11,7 +11,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 **Alvin Biju:** 40278182 : Alvin-11   (Backend) Secretary
 
-**Othmane Sbi (@sbiothmane):** 40249134  (Backend) Scrummaster
+**Othmane Sbi :** sbiothmane 40249134  (Backend) Scrummaster
 
 **William White:** 40135771  (Frontend)
 
