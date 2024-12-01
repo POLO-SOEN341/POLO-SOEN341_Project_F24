@@ -22,5 +22,5 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 **Youssef Youssef:** 40285384  (Backend) Scrummaster assistant
 
 
-**John Kaspar:** 40285931  (Frontend)
+**John Kaspar:** 40285931 Ukcl  (Frontend) Secretary
 
