@@ -13,7 +13,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 **Othmane Sbi :** 40249134 sbiothmane (FullStack) main Scrummaster
 
-**William White:** 40135771  (FullStack) WilliamWhite1125
+**William White:** 40135771  (FullStack) WilliamWhite1125 Sprint 3 & Sprint 4 Scrummaster
 
 
 **Samy Belmihoub:** 40251504 : TheWaterisLife (FullStack)
