@@ -11,7 +11,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 **Alvin Biju:** 40278182 : Alvin-11   (FullStack) Secretary
 
-**Othmane Sbi :** 40249134 sbiothmane (FullStack) Scrummaster
+**Othmane Sbi :** 40249134 sbiothmane (FullStack) main Scrummaster
 
 **William White:** 40135771  (FullStack) WilliamWhite1125
 
