@@ -19,7 +19,7 @@ Frontend : (REACT.js),  Backend (NEXT.js), Database (Google Firebase)
 **Samy Belmihoub:** 40251504 : TheWaterisLife (FullStack) Secretary
 
 
-**Youssef Youssef:** 40285384 : Youssef8811  (FullStack) Scrummaster assistant
+**Youssef Youssef:** 40285384 : Youssef8811  (FullStack) Sprint 2 Scrummaster / Scrummaster Assistant
 
 
 **John Kaspar:** 40285931 Ukcl  (FullStack) Sprint 3 & Sprint 4 Secretary
