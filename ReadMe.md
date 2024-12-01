@@ -22,5 +22,5 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 **Youssef Youssef:** 40285384  (FullStack) Scrummaster assistant
 
 
-**John Kaspar:** 40285931 Ukcl  (FullStack) Secretary
+**John Kaspar:** 40285931 Ukcl  (FullStack) Sprint 3 & Sprint 4 Secretary
 
