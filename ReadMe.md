@@ -9,7 +9,7 @@ Frontend : (HTML, CSS, JAVASCRIPT,REACT.js),  Backend (NEXT.js)
 
 # Members:
 
-**Alvin Biju:** 40278182 : Alvin-11   (FullStack) Random Guy
+**Alvin Biju:** 40278182 : Alvin-11   (FullStack) Secretary/ Part-time Scrummaster
 
 **Othmane Sbi :** 40249134 sbiothmane (FullStack) main Scrummaster
 
